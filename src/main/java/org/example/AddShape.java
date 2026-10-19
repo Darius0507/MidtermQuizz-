@@ -7,7 +7,7 @@ public class AddShape {
     private final List<Shape> shapes = new ArrayList<>();
 
 
-    public void addShape(Shape shape){
+    public void addShape(Shape shape) {
         shapes.add(shape);
     }
 

@@ -1,6 +1,6 @@
 package org.example;
 
-public class Squar implements Shape{
+public class Squar implements Shape {
     public final double side;
 
     public Squar(double side) {
@@ -9,11 +9,11 @@ public class Squar implements Shape{
 
     @Override
     public double getArea() {
-        return side*side;
+        return side * side;
     }
 
     @Override
     public double getPerimeter() {
-        return 4*side;
+        return 4 * side;
     }
 }

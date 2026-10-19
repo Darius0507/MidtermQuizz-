@@ -2,7 +2,7 @@ package org.example;
 
 public class Triangle implements Shape {
 
-    private final double a,b,c;
+    private final double a, b, c;
 
     public Triangle(double a, double b, double c) {
         this.a = a;
@@ -12,12 +12,12 @@ public class Triangle implements Shape {
 
     @Override
     public double getArea() {
-        double s = getPerimeter()/2;
-        return Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        double s = getPerimeter() / 2;
+        return Math.sqrt(s * (s - a) * (s - b) * (s - c));
     }
 
     @Override
     public double getPerimeter() {
-        return a+b+c;
+        return a + b + c;
     }
 }

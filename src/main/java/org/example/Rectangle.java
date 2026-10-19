@@ -1,6 +1,6 @@
 package org.example;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
     private final double width;
     private final double height;
 
@@ -16,6 +16,6 @@ public class Rectangle implements Shape{
 
     @Override
     public double getPerimeter() {
-        return 2 *(width+height);
+        return 2 * (width + height);
     }
 }
